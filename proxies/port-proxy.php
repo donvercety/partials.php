@@ -28,7 +28,7 @@ if (strtoupper($_SERVER['REQUEST_METHOD']) === "GET") {
 } else {
 
     $req = getRequestData();
-    $wid = filter_input(INPUT_GET, 'postId', FILTER_VALIDATE_INT);
+    $wid = filter_input(INPUT_POST, 'postId', FILTER_VALIDATE_INT);
 
     if (isset($wid)) {
         $srv = selectServer($wid);
