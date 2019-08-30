@@ -5,7 +5,7 @@ include('./throttle.php');
 
 // ex.
 throttle([
-	'id'          => 'api_request',       //.(required) String, unique identifier, so the throttler can keep track of multiple actions
+	'id'          => 'api_request',       // (required) String, unique identifier, so the throttler can keep track of multiple actions
 	'throttleKey' => 'throttled',         // (optional) String, identifier for the throttler to work with in the $_SESSION array (default: 'throttled')
 	'throttleFor' => 10,                  // (optional) Throttle user for X seconds (default: 60)
 	'runsAllowed' => 5,                   // (optional) MAX allowed attempts (default: 1)
