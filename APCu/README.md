@@ -1,4 +1,17 @@
-### SimpleCache [PSR-16](https://www.php-fig.org/psr/psr-16/) Methods:
+### Lib
+```php
+require_once './SimpleAPCuCache.php';
+
+$cache->set('age', 18);
+$cache->get('age');
+
+$cache->get('name', 'default name');
+
+$cache->setMultiple(['age' =>  18, 'name' => 'Max']);
+$cache->getMultiple(['age', 'name'], ['name' => 'default name']);
+```
+
+### SimpleCache [PSR-16](https://www.php-fig.org/psr/psr-16/) Methods
 ```txt
 get($key, $default)
 set($key, $value, $ttl = null)
@@ -12,7 +25,7 @@ clear()
 has($key)
 ```
 
-### Simple APCu example usage:
+### Direct APCu example usage
 ```php
 $cacheKey = 'product_1';
 $ttl = 600; // 10 minutes.
@@ -42,7 +55,7 @@ var_dump([
 ]);
 ```
 
-### Some good reads:
+### Some good reads
 - [Basics of PHP Caching](https://flaviocopes.com/php-caching/)
 - [Boosting up PHP-project with cache](https://dev.to/he110/boosting-up-php-project-with-cache-16hi)
 - [APC User Cache](https://www.php.net/manual/en/book.apcu.php)
