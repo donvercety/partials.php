@@ -1,7 +1,7 @@
 <?php
 
 function generateToken() {
-	return md5(uniqid(rand(), true));
+	return bin2hex(random_bytes(32));
 }
 
 /**
@@ -43,7 +43,7 @@ function csrf() {
 
 /**
  * Check the token validity and handle the failure.
- * 
+ *
  * TODO: implement to use other request types
  * @return boolean
  */
@@ -76,12 +76,11 @@ function isRecentCSRFToken() {
 	if (isset($_SESSION['csrf.token.time'])) {
 		$storedTime = $_SESSION['csrf.token.time'];
 		return ($storedTime + $maxElapsed) >= time();
-	} else {
-		
-		// remove expired token
-		removeCSRFToken();
-		return false;
 	}
+
+	// remove expired token
+	removeCSRFToken();
+	return false;
 }
 
 function debug($something) {

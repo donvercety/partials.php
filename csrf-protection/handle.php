@@ -4,17 +4,18 @@ session_start();
 include './functions.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-	
+
 	if (isValidCSRFToken()) {
-		
-		// request is safe
-		echo "Valid token detected!";
+		echo "<p>Valid token detected!</p>"; // request is safe
+
+		if (isRecentCSRFToken()) {
+			echo "<p>Token is recent!</p>"; // request is safe safe
+		}
 
 	} else {
-		// request not safe
-		echo "Invalid token detected!";
+		echo "<p>Invalid token detected!</p>"; // request not safe
 	}
-	
+
 	debug($_POST);
 
 } else {
