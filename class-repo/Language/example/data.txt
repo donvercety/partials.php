@@ -1,0 +1,4 @@
+attack:атака,attack
+why:защо,why
+space:космос,space
+phone:телефон,gsm
