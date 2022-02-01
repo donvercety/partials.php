@@ -62,7 +62,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		fputs($file, trim(stripslashes($_POST["content"])));
 		fclose($file);
 	}
-	header("location: ?page=" . urlencode(stripslashes($_POST[page])));
+	header("location: ?page=" . urlencode(stripslashes($_POST["page"])));
 }
 	
 // Read and parse template
