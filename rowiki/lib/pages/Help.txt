@@ -34,7 +34,6 @@ Here is an overview of all the formatting-rules you can use in "'''roWiki'''". P
 </table>}}
 
 '''External links and eMail - addresses''', either automatically...
-- https://github.com/donvercety/partials.php/tree/master/rowiki
 - http://www.rowlff.de/rowiki
 - rowiki@rowlff.de
 
