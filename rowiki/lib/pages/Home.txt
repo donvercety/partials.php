@@ -17,9 +17,14 @@ Looks like this project is long dead, the final code update was around 2005.
 
 This version of '''roWiki''' was created mainly from `v1.02`, with some additions from `v1.05`. Resulting in a new '''roWiki''' version `v1.10` - after 17 years.
 
-! Updates
+'''Updates'''
 * PHP 7.x support
 * Read-only mode
 * Many fixed issues
 * Complete template redesign
 * Mobile friendly
+
+'''Downloads'''
+* [`v1.10`|https://github.com/donvercety/partials.php/blob/master/rowiki/roWiki_v1.10.zip] from 2022-01-31
+* [`v1.05`|https://github.com/donvercety/partials.php/blob/master/rowiki/archive/roWiki_v1.05.tar.gz] from 2005-06-04
+* [`v1.02`|https://github.com/donvercety/partials.php/blob/master/rowiki/archive/roWiki_v1.02.tar.gz] from 2005-01-04
