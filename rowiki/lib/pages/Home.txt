@@ -1,0 +1,25 @@
+!!! Welcome ...
+!... to your own wiki!
+Please play around with this default-installation, until you feel comfortable. Just remember, all info on 
+"'''roWiki'''" can be found at http://www.rowlff.de/rowiki/
+
+To see how editing and formatting works in "'''roWiki'''", just click "Edit" at the bottom of this screen to access (and change) this page.
+
+Go to [Help] to get an overview over all possibilities. You can always return here by clicking "Home".
+
+'''Have fun with roWiki'''
+
+----
+!! ...from 2022
+Found a working archive of this wiki engine [here|http://maintained.by.noone.org/rowiki] (`v1.02`) - ''be careful your eyes will hurt''. The original link above is '''EOL'''. Slightly newer, but buggier version (maybe not released officially) is available to download [here|http://lionwiki.0o.cz/index.php?page=About+LionWiki] (`v1.05`), backed-up by the [LionWiki|http://lionwiki.0o.cz/] project, which is a descendant of '''roWiki'''. 
+
+Looks like this project is long dead, the final code update was around 2005. 
+
+This version of '''roWiki''' was created mainly from `v1.02`, with some additions from `v1.05`. Resulting in a new '''roWiki''' version `v1.10` - after 17 years.
+
+! Updates
+* PHP 7.x support
+* Read-only mode
+* Many fixed issues
+* Complete template redesign
+* Mobile friendly

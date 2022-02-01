@@ -1,0 +1,93 @@
+<html>
+	<head>
+		<title>{WIKI_TITLE} - {PAGE_TITLE}</title>
+		<style>
+			body { 
+				font: .9em/1.4 Verdana, Arial, sans-serif;
+				color: #333;
+				background-color: #f2f3f4;
+				margin: 0;
+			}
+			a {
+				color: #218bff;
+				text-decoration: none;
+			}
+			a.new-page {
+				color: red
+			}
+			h1 {
+				font-size: 24px;
+				margin: .7em 0 .2em 0;
+				text-align: center;
+			}
+			h2 {
+				border-bottom: 1px solid #eee;
+			}
+			hr {
+				border: none;
+				border-top: 1px solid #eee;
+			}
+			code, pre {
+				font-family: Consolas, "Liberation Mono", Courier, monospace;
+				background-color: #f5f5f5;
+				padding: 0.2em;
+			}
+			code {
+				padding: 0.1em 0.2em;
+			}
+
+			pre {
+				border: 1px solid #ccc;
+				overflow: auto;
+			}
+			textarea {
+				width: 100%;
+				font-family: monospace;
+				height: 60vh;
+			}
+			.wrapper {
+				width: auto;
+				min-width: 320px;
+				max-width: 960px;
+				margin: 0 auto;
+			}
+			.header, .content, .footer {
+				margin: .5em;
+				padding: 0 1em;
+			}
+			.header {
+				text-align: right;
+			}
+			.content {
+				border: 1px solid #ccc;
+				background-color: white;
+			}
+			.content .last-change {
+				text-align: right;
+				font-size: .7em;
+				margin: 0.5em -0.5em;
+			}
+			.go-right {
+				float: right;
+				text-align: right;
+			}
+		</style>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+	<div class="wrapper">
+		<div class="header">
+			{HOME} &nbsp; {RECENT_CHANGES}
+		</div>
+		<div class="content">
+			<h1>{PAGE_TITLE}</h1>
+			{CONTENT}
+			<p class="last-change">Last Change: {TIME}</p>
+		</div>
+		<div class="footer">
+			<span>{EDIT} &nbsp; {HELP}</span>
+			<span class="go-right">{SEARCH}</span>
+		</div>
+	</div>
+	<body>
+</html>

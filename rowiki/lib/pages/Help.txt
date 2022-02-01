@@ -1,0 +1,60 @@
+!!! Help Page
+Here is an overview of all the formatting-rules you can use in "'''roWiki'''". Press "Edit" button at the bottom, to see how everything is done.
+(If you only see "Locked Page", refer to the documentation to find out how to unlock a page!)
+
+'''Headings''' -- using `!`
+`<h1>` - used for the page title.
+{{
+<h2> = !!! Biggest
+<h3> = !! Bigger
+<h4> = ! Big
+}}
+'''Font faces''' -- using `'`
+- '''Bold'''
+- ''italics''
+- '''''both'''''
+
+'''Ordered lists''' -- using `#`
+# First
+# Second
+# Third
+
+'''Unordered lists''' -- using `*`
+* First
+* Second
+* Third
+
+'''Code''' -- using 2 ''curly brackets'' or ''back-ticks''
+{{<table>
+  <tr>
+    <td>
+      ...
+    </td>
+  </tr>
+</table>}}
+
+'''External links and eMail - addresses''', either automatically...
+- https://github.com/donvercety/partials.php/tree/master/rowiki
+- http://www.rowlff.de/rowiki
+- rowiki@rowlff.de
+
+..or with an arbitrary link-text with the help of square brackets
+- [Go to roWiki original|http://www.rowlff.de/rowiki]
+- [Go to roWiki new|https://github.com/donvercety/partials.php/tree/master/rowiki]
+
+'''Images''' work automatically as well, just include the `URL` of the image you want
+
+https://i.ibb.co/gjyNP4h/Fuck-O-Meter.gif
+
+'''Links''' to wiki-pages, using square brackets:
+- [Home]
+
+..if a page does not exist, it will be created the first time you click on the link. Click on "Sandbox" and you can simply write this new page..
+- [Sandbox]
+- [New Page]
+
+
+'''Horizontal line''' -- using `----`
+
+----
+Try it out! Once you get used to it, it's pretty simple `(^_^)`
